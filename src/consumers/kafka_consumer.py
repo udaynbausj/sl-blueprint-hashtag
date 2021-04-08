@@ -19,3 +19,4 @@ def consume_tweet_events(consumer: Consumer, topic: str):
         print("error while consuming events. err : %s", e)
     finally:
         consumer.close()
+
